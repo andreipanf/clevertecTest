@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741BCA901C01859F0061EDC7 /* APMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCA8F1C01859F0061EDC7 /* APMetaData.m */; settings = {ASSET_TAGS = (); }; };
+		741BCA931C01881B0061EDC7 /* APNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCA921C01881B0061EDC7 /* APNetwork.m */; settings = {ASSET_TAGS = (); }; };
+		741BCA9A1C0192EC0061EDC7 /* APParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCA991C0192EC0061EDC7 /* APParser.m */; settings = {ASSET_TAGS = (); }; };
+		741BCA9D1C019E850061EDC7 /* APField.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCA9C1C019E850061EDC7 /* APField.m */; settings = {ASSET_TAGS = (); }; };
+		741BCAA51C01AF120061EDC7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCAA41C01AF120061EDC7 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		741BCAA81C01AF960061EDC7 /* DinamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BCAA71C01AF960061EDC7 /* DinamicTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7481B1391C006C2700749C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481B1381C006C2700749C11 /* main.m */; };
 		7481B13C1C006C2700749C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481B13B1C006C2700749C11 /* AppDelegate.m */; };
-		7481B13F1C006C2700749C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481B13E1C006C2700749C11 /* ViewController.m */; };
 		7481B1421C006C2700749C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7481B1401C006C2700749C11 /* Main.storyboard */; };
 		7481B1441C006C2700749C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7481B1431C006C2700749C11 /* Assets.xcassets */; };
 		7481B1471C006C2700749C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7481B1451C006C2700749C11 /* LaunchScreen.storyboard */; };
 		7481B1521C006C2800749C11 /* clevertecTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481B1511C006C2800749C11 /* clevertecTestTests.m */; };
 		7481B15D1C006C2800749C11 /* clevertecTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481B15C1C006C2800749C11 /* clevertecTestUITests.m */; };
+		C73F23E40D4B856441C81646 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F351AA39653CAD20BD3D32 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F351AA39653CAD20BD3D32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C6F4C9FCE8D7C36599EE30 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		601F0650D48DFB117F396BD7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		741BCA8E1C01859F0061EDC7 /* APMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APMetaData.h; path = Model/APMetaData.h; sourceTree = "<group>"; };
+		741BCA8F1C01859F0061EDC7 /* APMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APMetaData.m; path = Model/APMetaData.m; sourceTree = "<group>"; };
+		741BCA911C01881B0061EDC7 /* APNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APNetwork.h; path = Model/APNetwork.h; sourceTree = "<group>"; };
+		741BCA921C01881B0061EDC7 /* APNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APNetwork.m; path = Model/APNetwork.m; sourceTree = "<group>"; };
+		741BCA941C01891E0061EDC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		741BCA981C0192EC0061EDC7 /* APParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APParser.h; path = Model/APParser.h; sourceTree = "<group>"; };
+		741BCA991C0192EC0061EDC7 /* APParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APParser.m; path = Model/APParser.m; sourceTree = "<group>"; };
+		741BCA9B1C019E850061EDC7 /* APField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APField.h; path = Model/APField.h; sourceTree = "<group>"; };
+		741BCA9C1C019E850061EDC7 /* APField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APField.m; path = Model/APField.m; sourceTree = "<group>"; };
+		741BCAA31C01AF120061EDC7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controllers/MainViewController.h; sourceTree = "<group>"; };
+		741BCAA41C01AF120061EDC7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
+		741BCAA61C01AF960061EDC7 /* DinamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DinamicTableViewController.h; path = Controllers/DinamicTableViewController.h; sourceTree = "<group>"; };
+		741BCAA71C01AF960061EDC7 /* DinamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DinamicTableViewController.m; path = Controllers/DinamicTableViewController.m; sourceTree = "<group>"; };
 		7481B1341C006C2700749C11 /* clevertecTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clevertecTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7481B1381C006C2700749C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7481B13A1C006C2700749C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7481B13B1C006C2700749C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7481B13D1C006C2700749C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7481B13E1C006C2700749C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7481B1411C006C2700749C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7481B1431C006C2700749C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7481B1461C006C2700749C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73F23E40D4B856441C81646 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E76772C482CC1BFB4EC712C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24C6F4C9FCE8D7C36599EE30 /* Pods.debug.xcconfig */,
+				601F0650D48DFB117F396BD7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		741BCAA11C01AB070061EDC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				741BCA8E1C01859F0061EDC7 /* APMetaData.h */,
+				741BCA8F1C01859F0061EDC7 /* APMetaData.m */,
+				741BCA9B1C019E850061EDC7 /* APField.h */,
+				741BCA9C1C019E850061EDC7 /* APField.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		741BCAA21C01AB220061EDC7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				741BCA911C01881B0061EDC7 /* APNetwork.h */,
+				741BCA921C01881B0061EDC7 /* APNetwork.m */,
+				741BCA981C0192EC0061EDC7 /* APParser.h */,
+				741BCA991C0192EC0061EDC7 /* APParser.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		741BCAA91C01AF9C0061EDC7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				741BCAA31C01AF120061EDC7 /* MainViewController.h */,
+				741BCAA41C01AF120061EDC7 /* MainViewController.m */,
+				741BCAA61C01AF960061EDC7 /* DinamicTableViewController.h */,
+				741BCAA71C01AF960061EDC7 /* DinamicTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		741BCAAA1C0215600061EDC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7481B1401C006C2700749C11 /* Main.storyboard */,
+				7481B1431C006C2700749C11 /* Assets.xcassets */,
+				7481B1451C006C2700749C11 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		7481B12B1C006C2700749C11 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +158,8 @@
 				7481B1501C006C2800749C11 /* clevertecTestTests */,
 				7481B15B1C006C2800749C11 /* clevertecTestUITests */,
 				7481B1351C006C2700749C11 /* Products */,
+				1E76772C482CC1BFB4EC712C /* Pods */,
+				C867EA9FB60AA9B0D99B6242 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +176,10 @@
 		7481B1361C006C2700749C11 /* clevertecTest */ = {
 			isa = PBXGroup;
 			children = (
-				7481B13A1C006C2700749C11 /* AppDelegate.h */,
-				7481B13B1C006C2700749C11 /* AppDelegate.m */,
-				7481B13D1C006C2700749C11 /* ViewController.h */,
-				7481B13E1C006C2700749C11 /* ViewController.m */,
-				7481B1401C006C2700749C11 /* Main.storyboard */,
-				7481B1431C006C2700749C11 /* Assets.xcassets */,
-				7481B1451C006C2700749C11 /* LaunchScreen.storyboard */,
-				7481B1481C006C2700749C11 /* Info.plist */,
+				741BCAA11C01AB070061EDC7 /* Model */,
+				741BCAAA1C0215600061EDC7 /* View */,
+				741BCAA91C01AF9C0061EDC7 /* Controllers */,
+				741BCAA21C01AB220061EDC7 /* Network */,
 				7481B1371C006C2700749C11 /* Supporting Files */,
 			);
 			path = clevertecTest;
@@ -117,6 +188,10 @@
 		7481B1371C006C2700749C11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7481B13A1C006C2700749C11 /* AppDelegate.h */,
+				7481B13B1C006C2700749C11 /* AppDelegate.m */,
+				7481B1481C006C2700749C11 /* Info.plist */,
+				741BCA941C01891E0061EDC7 /* PrefixHeader.pch */,
 				7481B1381C006C2700749C11 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +215,14 @@
 			path = clevertecTestUITests;
 			sourceTree = "<group>";
 		};
+		C867EA9FB60AA9B0D99B6242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10F351AA39653CAD20BD3D32 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7481B1611C006C2800749C11 /* Build configuration list for PBXNativeTarget "clevertecTest" */;
 			buildPhases = (
+				FC018F17A14029FA810ACAA6 /* Check Pods Manifest.lock */,
 				7481B1301C006C2700749C11 /* Sources */,
 				7481B1311C006C2700749C11 /* Frameworks */,
 				7481B1321C006C2700749C11 /* Resources */,
+				6674CD5555F504F92F3BA267 /* Copy Pods Resources */,
+				19E245C634A11FEEB91944DF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,13 +351,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E245C634A11FEEB91944DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6674CD5555F504F92F3BA267 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC018F17A14029FA810ACAA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7481B1301C006C2700749C11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7481B13F1C006C2700749C11 /* ViewController.m in Sources */,
+				741BCA931C01881B0061EDC7 /* APNetwork.m in Sources */,
+				741BCAA81C01AF960061EDC7 /* DinamicTableViewController.m in Sources */,
+				741BCA901C01859F0061EDC7 /* APMetaData.m in Sources */,
+				741BCAA51C01AF120061EDC7 /* MainViewController.m in Sources */,
 				7481B13C1C006C2700749C11 /* AppDelegate.m in Sources */,
+				741BCA9D1C019E850061EDC7 /* APField.m in Sources */,
+				741BCA9A1C0192EC0061EDC7 /* APParser.m in Sources */,
 				7481B1391C006C2700749C11 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +548,12 @@
 		};
 		7481B1621C006C2800749C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C6F4C9FCE8D7C36599EE30 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = clevertecTest/PrefixHeader.pch;
 				INFOPLIST_FILE = clevertecTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ap.clevertecTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +562,12 @@
 		};
 		7481B1631C006C2800749C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601F0650D48DFB117F396BD7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = clevertecTest/PrefixHeader.pch;
 				INFOPLIST_FILE = clevertecTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ap.clevertecTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +641,7 @@
 				7481B1631C006C2800749C11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7481B1641C006C2800749C11 /* Build configuration list for PBXNativeTarget "clevertecTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +650,7 @@
 				7481B1661C006C2800749C11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7481B1671C006C2800749C11 /* Build configuration list for PBXNativeTarget "clevertecTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +659,7 @@
 				7481B1691C006C2800749C11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

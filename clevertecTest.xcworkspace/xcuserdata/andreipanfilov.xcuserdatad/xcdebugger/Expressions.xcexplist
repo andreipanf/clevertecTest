@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DinamicTableViewController pickerView:numberOfRowsInComponent:]:DinamicTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "field.values count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[APParser parseMetaData:]:APParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "__19+[Network getData:]_block_invoke:Network.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[MainViewController getMetaButtonPressed:]_block_invoke12:MainViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APNetwork cancleAllRequests]:APNetwork.m">
+      </ContextState>
+      <ContextState
+         contextName = "__19+[Network getData:]_block_invoke_2:Network.m">
+      </ContextState>
+      <ContextState
+         contextName = "__26-[ViewController loadData]_block_invoke:ViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
